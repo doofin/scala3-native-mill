@@ -1,0 +1,52 @@
+project/project/
+project/metals.sbt
+.bloop/
+.metals/
+*.class
+*.log
+
+
+# Emacs
+\#*
+.\#*
+.ensime
+.ensime_cache
+
+# Package Files #
+# *.jar
+*.war
+*.ear
+
+.vscode
+.bsp
+
+.DS_Store
+*.class
+*.log
+*~
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/local-plugins.sbt
+.history
+
+# Scala-IDE specific
+.scala_dependencies
+.cache
+.classpath
+.project
+.settings
+classes/
+
+# idea
+.idea
+.idea_modules
+/.worksheet/
+
+# mill
+out/
